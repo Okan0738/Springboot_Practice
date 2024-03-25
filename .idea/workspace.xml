@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96cac811-8d1e-40b7-8276-34ea1038233a" name="Changes" comment="Configurated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/motherCase/MotherBoard.java" afterDir="false" />
+    <list default="true" id="96cac811-8d1e-40b7-8276-34ea1038233a" name="Changes" comment="Configurated part2">
+      <change afterPath="$PROJECT_DIR$/part2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/main/java/Okan/bean_annotation/ComputerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/main/java/Okan/bean_annotation/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/main/java/Okan/bean_annotation/casefactory/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/main/java/Okan/bean_annotation/casefactory/DellCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/main/java/Okan/bean_annotation/config/ComputerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/main/java/Okan/bean_annotation/config/RandomConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/main/java/Okan/bean_annotation/motherboardFactory/AsusMotherboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/main/java/Okan/bean_annotation/motherboardFactory/Motherboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/main/java/Okan/bean_annotationmonitorfactory/AcerMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/main/java/Okan/bean_annotationmonitorfactory/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/main/java/Okan/bean_annotationmonitorfactory/SonyMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,27 +39,30 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2e2vmWPHK6e8J3tf2pk5P758VDG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/okan/Desktop/untitled/src/main/java/com/Okan/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "temurin-11",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/okan/Desktop/untitled/part2/src/main/java/Okan/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="motherCase" />
@@ -69,6 +85,7 @@
       <updated>1711115651065</updated>
       <workItem from="1711115652258" duration="1233000" />
       <workItem from="1711191952612" duration="4558000" />
+      <workItem from="1711329132955" duration="2486000" />
     </task>
     <task id="LOCAL-00001" summary="done first part">
       <option name="closed" value="true" />
@@ -86,15 +103,35 @@
       <option name="project" value="LOCAL" />
       <updated>1711230169262</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Configurated part2">
+      <option name="closed" value="true" />
+      <created>1711331024731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711331024731</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done first part" />
     <MESSAGE value="Configurated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configurated" />
+    <MESSAGE value="Configurated part2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configurated part2" />
   </component>
 </project>
