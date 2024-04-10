@@ -9,6 +9,7 @@ public abstract class Monitor {
         this.model = model;
         this.manufacturer = manufacturer;
         this.size = size;
+
     }
 
     public abstract void drawPixelAt();

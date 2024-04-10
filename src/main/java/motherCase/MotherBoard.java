@@ -13,6 +13,7 @@ public abstract class MotherBoard {
         this.ramSlots = ramSlots;
         this.cardSlots = cardSlots;
         this.bios = bios;
+
     }
 
     public abstract void loadProgram(String programName);

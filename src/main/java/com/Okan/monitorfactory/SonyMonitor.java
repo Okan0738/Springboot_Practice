@@ -8,4 +8,7 @@ public class SonyMonitor extends Monitor {
     public void drawPixelAt() {
         System.out.println("Drawing pixel with Sony");
     }
+
+
+
 }
